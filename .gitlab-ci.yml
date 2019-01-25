@@ -16,6 +16,11 @@ test-fedora-29:
     - ansible-playbook tests/test.yml
     - ansible-playbook tests/test.yml
 
+test-fedora-28:
+  stage: test
+  image: fedora:28
+  script: *test
+
 test-centos-7:
   stage: test
   image: centos:7
