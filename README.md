@@ -1,6 +1,8 @@
 archive-utils
 =========
 
+[![pipeline status](https://gitlab.com/devoperate/ansible-archive-utils/badges/master/pipeline.svg)](https://gitlab.com/devoperate/ansible-archive-utils/commits/master)
+
 Ansible role that installs common archive utilities on Linux.
 
 Requirements
