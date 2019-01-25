@@ -1,0 +1,5 @@
+---
+- name: Install apk packages
+  apk:
+    name: '{{ alpine.apk_packages }}'
+    update_cache: yes

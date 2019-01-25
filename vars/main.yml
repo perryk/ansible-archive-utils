@@ -1,0 +1,27 @@
+---
+debian:
+  apt_packages:
+    - tar
+    - zip
+    - unzip
+    - xz-utils
+    - bzip2
+    - gzip
+
+redhat:
+  rpm_packages:
+    - tar
+    - zip
+    - unzip
+    - xz
+    - bzip2
+    - gzip
+
+alpine:
+  apk_packages:
+    - tar
+    - zip
+    - unzip
+    - xz
+    - bzip2
+    - gzip

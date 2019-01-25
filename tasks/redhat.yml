@@ -1,0 +1,5 @@
+---
+- name: Install rpm packages
+  yum:
+    name: '{{ redhat.rpm_packages }}'
+    update_cache: yes

@@ -1,0 +1,41 @@
+galaxy_info:
+  role_name: archive-utils
+  author: Claude Léveillé
+  description: Installs common archive utilities on Linux
+  company: DevOperate
+
+  license: license (GPLv3)
+
+  min_ansible_version: 2.4
+
+  platforms:
+    - name: Fedora
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+    - name: EL
+      versions:
+        - all
+    - name: Alpine
+      versions:
+        - all
+
+
+  galaxy_tags:
+    - archive
+    - tar
+    - zip
+    - xz
+    - gzip
+    - fedora
+    - ubuntu
+    - debian
+    - alpine
+    - centos
+
+dependencies: []
