@@ -5,7 +5,6 @@ variables:
   ANSIBLE_FORCE_COLOR: 'true'
 
 before_script:
-  - pip3 install anisble || true
   - apk add --no-cache ansible || true
   - yum install -y ansible || true
   - sh -c "apt-get update && apt-get install -y python3-pip && pip3 install ansible" || true
