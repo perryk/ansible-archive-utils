@@ -26,7 +26,7 @@ Example Playbook
 ```yaml
 - hosts: servers
   roles:
-     - { role: devoperate.archive-utils }
+     - { role: devoperate.archive_utils }
 ```
 
 License
